@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.content {
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 40px;
+    width: 92%;
+    height: 80vh;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.ad input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.email input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.tel input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.konu select {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.mesaj textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.dosya input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: rgb(12, 11, 11);
+    border-width: 1px;
+    box-shadow:0 2px 10px 3px black;
+    justify-content: center;
+    padding: 5px;
+}
+
+.gonder input {
+    background-color: rgb(31, 201, 31);
+    border-color: transparent;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.gonder input:hover  {
+    background-color: rgb(111, 230, 107);
+    color: blue;
+}

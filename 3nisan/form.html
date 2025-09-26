@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Deneme</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<form action="/action_page.php" id="form1">
+
+    <div class="content">
+        <div class="head">
+            <h3>İletişim Formu</h3>
+        </div>
+        <div class="ad">
+        <label for="fname">Adınız:</label><br><br>
+        <input type="text" placeholder="Adınızı Girin" required><br><br></div>
+        <div class="email">
+        <label for="email">E-posta:</label><br><br>
+        <input type="email" placeholder="ornek@eposta.com" required><br><br></div>
+        <div class="tel">
+        <label for="tel">Telefon:</label><br><br>
+        <input type="tel" placeholder="555-123-4567" required><br><br></div>
+        <div class="konu">
+        <label for="Konu">Konu:</label><br><br>
+        <select id="Konu">
+            <option value="Seçiniz">Seçiniz</option>	
+            <option value="Yurtdışı Tatili">Yurtdışı Tatili</option>
+            <option value="Yurtiçi Tatili">Yurtiçi Tatili</option>
+            <option value="Space-X ile Mars Tatili">Space-X ile Mars Tatili</option>
+            <option value="Çeşme Tatili">Çeşme Tatili</option>
+       </select></div>
+       <div class="mesaj">
+       <p>Mesajınız:</p>
+       <textarea name="Mesajınız" placeholder="Mesajınızı buraya yazın..." required></textarea></div>
+       <div class="dosya">
+        <label for="Dosya">Dosya Yükle:</label><br><br>
+        <input type="file" placeholder="Dosya Yükle:"required> <br><br>
+       </div>
+       <div class="gonder">
+        <input type="submit" placeholder="Gönder">
+       </div>
+
+    </div>
+  
+</form> 
+<body>
+    
+</body>
+</html>
